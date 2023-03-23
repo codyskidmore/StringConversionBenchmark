@@ -12,11 +12,8 @@ public static class GuidUtil
     private const char Plus = '+';
     private const char Hyphen = '-';
     
-    private const byte EqualsByte = (byte)'=';
     private const byte SlashByte = (byte)'/';
-    private const byte UnderscoreByte = (byte)'_';
     private const byte PlusByte = (byte)'+';
-    private const byte HyphenByte = (byte)'-';
 
     public static string ToStringFromGuid(Guid id)
     {
